@@ -1,0 +1,95 @@
+.header{
+    margin: 20px;
+}
+
+.container-float{
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    color: #000000;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.top-text{
+    float: right;
+    background-color: #a6fc8c;
+    width: 65%;
+    height: 20%;
+}
+.first-image{
+    float: left;
+    width: 35%;
+    height: 90%;
+}
+.first-image img{
+    max-height: 100%;
+}
+.center-text{
+    float: right;
+    background-color: #f3cf74;
+    width: 65%;
+    height: 70%;
+}
+.bottom-text{
+    float: left;
+    background-color: #94a1f8;
+    width: 65%;
+    height: 15%;
+}
+.second-image{
+    float: right;
+    width: 35%;
+    height: 15%;
+}
+
+.second-image img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.container-flex {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    color: #000000;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.first-image-flex {
+    width: 35%;
+    height: 450px;
+}
+.first-image-flex img{
+    max-height: 100%;
+}
+.top-center-text {
+    width: 70%;
+}
+.top-text-flex {
+    background-color: #a6fc8c;
+    height: 20%;
+    margin-top: -12px;
+}
+.center-text-flex {
+    background-color: #f3cf74;
+    height: 80%;
+    margin-top: -13px;
+}
+.bottom-text-flex {
+    background-color: #94a1f8;
+    width: 65%;
+    height: 80px;
+}
+.second-image-flex {
+    width: 35%;
+    height: 75px;
+}
+.second-image-flex img{
+    max-height: 100%;
+    max-width: 100%;
+}
